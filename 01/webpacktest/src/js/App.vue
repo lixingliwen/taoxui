@@ -6,13 +6,19 @@
         <h1>33</h1>
         <h1>{{key}}</h1>
         <img src="../image/logo.jpg" alt="">
+         <Button type="warning" shape="circle"> 按钮 </Button> -->
+         <Slider></Slider>
+         <i-switch  size="large"></i-switch>
+         
+
     </div>
         
-    
+   
 </template>
 
 <script>
     export default {
+
         name:'App',
         data() {
             return {
@@ -23,6 +29,7 @@
 </script>
 
 <style lang = "less">
+
     button{
         background: rgb(224, 224, 160);
         width: 200px;

@@ -15,5 +15,8 @@
         "vue-loader": "^15.2.6",
         "vue-template-compiler": "^2.5.16",
         "webpack": "^4.16.2"
+    },
+    "dependencies": {
+        "iview": "^3.0.0"
     }
 }

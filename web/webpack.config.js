@@ -54,7 +54,7 @@ module.exports = {
             {
                 test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
                 use:['url-loader']
-            }
+            },
         ]
     },
     devServer:{ // 配置 webpack-dev-server 启动命令的参数

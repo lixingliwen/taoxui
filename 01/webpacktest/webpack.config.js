@@ -60,6 +60,14 @@ module.exports = {
                 test:/\.less$/,
                 use:['style-loader','css-loader','less-loader']
             },
+            {
+              test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+              use:['url-loader']
+          },
+          {
+              test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+              use:['url-loader']
+          }
          ]
        },
        plugins: [
